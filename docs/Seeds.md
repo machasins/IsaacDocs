@@ -81,11 +81,12 @@ The "start seed" is a number between 1 and (2^32 - 1) that is used to generate t
 This method will return 0 if it is invoked in the main menu.
 
 ???- example "Example Code"
-  This code turns the current run seed into its string representation.
-  ```lua
-  local seed = Game():GetSeeds():GetStartSeed()
-  local seedString = Seeds.Seed2String(seed) -- Returns a string in the form of "ABCD DEFG"
-  ```
+    This code turns the current run seed into its string representation.
+    
+    ```lua
+    local seed = Game():GetSeeds():GetStartSeed()
+    local seedString = Seeds.Seed2String(seed) -- Returns a string in the form of "ABCD DEFG"
+    ```
 ___
 ### Get·Start·Seed·String () {: aria-label='Functions' }
 [ ](#){: .abrep .tooltip .badge }
@@ -157,11 +158,12 @@ ___
 Turns a seed into its String representation as used for any in-game seed display.
 
 ???- example "Example Code"
-  This code turns the current run seed into its string representation.
-  ```lua
-  local seed = Game():GetSeeds():GetStartSeed()
-  local seedString = Seeds.Seed2String(seed) -- Returns a string in the form of "ABCD DEFG"
-  ```
+    This code turns the current run seed into its string representation.
+    
+    ```lua
+    local seed = Game():GetSeeds():GetStartSeed()
+    local seedString = Seeds.Seed2String(seed) -- Returns a string in the form of "ABCD DEFG"
+    ```
 
 ___
 ### Set·Start·Seed () {: aria-label='Functions' }
